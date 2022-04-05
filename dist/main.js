@@ -9,16 +9,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("var math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\n\nconsole.log(\"hello from javascript!\");\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
@@ -186,6 +176,16 @@ eval("var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ \"
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__(/*! regenerator-runtime */ \"./node_modules/regenerator-runtime/runtime.js\");\n\n\n//# sourceURL=webpack://modern-javascript/./node_modules/@babel/runtime/regenerator/index.js?");
+
+/***/ }),
+
+/***/ "./index.js":
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\n\nconsole.log(\"hello from javascript!\");\nconsole.log(math.sqrt(9).toString());\nvar yo = \"yoooo\";\nvar whatUp = \"what up\";\nconsole.log(\"HEEEEEEY, \".concat(whatUp, \" \").concat(yo));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
